@@ -1,0 +1,57 @@
+{
+  "name": "@mukundakatta/agentbudget-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.MukundaKatta/agentbudget",
+  "description": "MCP server for agentbudget: token + dollar budget caps for AI agents. Track usage across calls and refuse work that would push past the ceiling.",
+  "type": "module",
+  "bin": {
+    "mcp-agentbudget": "dist/server.js"
+  },
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "node --test --import tsx test/*.test.ts",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "cursor",
+    "cline",
+    "windsurf",
+    "zed",
+    "budget",
+    "tokens",
+    "cost-tracking",
+    "agent",
+    "spending-limits"
+  ],
+  "author": "Mukunda Katta <mukunda.vjcs6@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/MukundaKatta/AgentBudgetMcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/AgentBudgetMcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@mukundakatta/agentbudget": "^0.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

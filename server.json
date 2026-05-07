@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/agentbudget",
+  "description": "Token + dollar budget caps for AI agents. Track usage across calls and refuse work that would push past the ceiling.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/AgentBudgetMcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/AgentBudgetMcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/agentbudget-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
