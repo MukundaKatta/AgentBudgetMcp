@@ -38,7 +38,7 @@
     "url": "git+https://github.com/MukundaKatta/AgentBudgetMcp.git"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "@mukundakatta/agentbudget": "^0.1.0"
   },
   "devDependencies": {
