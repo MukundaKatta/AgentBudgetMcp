@@ -42,7 +42,7 @@
     "@mukundakatta/agentbudget": "^0.1.0"
   },
   "devDependencies": {
-    "tsx": "^4.7.0",
+    "tsx": "^4.23.13",
     "typescript": "^5.4.0",
     "@types/node": "^20.0.0"
   },
